@@ -66,3 +66,76 @@ textInput8.value = localStorage.getItem("appointment8");
 textInput8.addEventListener("input", function () {
   localStorage.setItem("appointment8", textInput8.value);
 });
+
+//Sets background color of input field based on time of day
+if (9 < dayjs().hour()) {
+  textInput.classList.add("past");
+} else if (9 == dayjs().hour()) {
+  textInput.classList.add("present");
+} else {
+  textInput.classList.add("future");
+}
+
+if (10 < dayjs().hour()) {
+  textInput1.classList.add("past");
+} else if (10 == dayjs().hour()) {
+  textInput1.classList.add("present");
+} else {
+  textInput1.classList.add("future");
+}
+
+if (11 < dayjs().hour()) {
+  textInput2.classList.add("past");
+} else if (11 == dayjs().hour()) {
+  textInput2.classList.add("present");
+} else {
+  textInput2.classList.add("future");
+}
+
+if (12 < dayjs().hour()) {
+  textInput3.classList.add("past");
+} else if (12 == dayjs().hour()) {
+  textInput3.classList.add("present");
+} else {
+  textInput3.classList.add("future");
+}
+
+if (13 < dayjs().hour()) {
+  textInput4.classList.add("past");
+} else if (13 == dayjs().hour()) {
+  textInput4.classList.add("present");
+} else {
+  textInput4.classList.add("future");
+}
+
+if (14 < dayjs().hour()) {
+  textInput5.classList.add("past");
+} else if (14 == dayjs().hour()) {
+  textInput5.classList.add("present");
+} else {
+  textInput5.classList.add("future");
+}
+
+if (15 < dayjs().hour()) {
+  textInput6.classList.add("past");
+} else if (15 == dayjs().hour()) {
+  textInput6.classList.add("present");
+} else {
+  textInput6.classList.add("future");
+}
+
+if (16 < dayjs().hour()) {
+  textInput7.classList.add("past");
+} else if (16 == dayjs().hour()) {
+  textInput7.classList.add("present");
+} else {
+  textInput7.classList.add("future");
+}
+
+if (17 < dayjs().hour()) {
+  textInput8.classList.add("past");
+} else if (17 == dayjs().hour()) {
+  textInput8.classList.add("present");
+} else {
+  textInput8.classList.add("future");
+}
