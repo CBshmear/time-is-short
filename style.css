@@ -45,8 +45,9 @@ body {
   }
   
   .past {
-    background-color: #d3d3d3;
-    color: white;
+    background-color: #d3d3d368;
+    color: rgb(220, 147, 53);
+    font-size: 15px;
   }
   
   .present {
