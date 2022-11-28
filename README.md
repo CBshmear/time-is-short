@@ -7,6 +7,7 @@ Life is busy! With this simple browser App, one can organize a workday with ease
 ![time-is-short](https://user-images.githubusercontent.com/112667575/204404667-57cdfa4c-8b36-4cfc-9184-4fe72a54f5b0.png)
 
 ## Link to deployed page 
+https://cbshmear.github.io/time-is-short/
 
 ## Credits
 I referenced this page alot
