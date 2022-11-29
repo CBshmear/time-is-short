@@ -14,6 +14,7 @@ var textInput7 = document.getElementById("txt-in7");
 var textInput8 = document.getElementById("txt-in8");
 
 //Gets input values from local storage
+textInput.value = localStorage.getItem("appointment");
 textInput1.value = localStorage.getItem("appointment1");
 textInput2.value = localStorage.getItem("appointment2");
 textInput3.value = localStorage.getItem("appointment3");
